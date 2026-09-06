@@ -162,7 +162,7 @@ async def main(
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
-        description="kiwipower",
+        description="kiwi_power",
     )
     parser.add_argument("--url", help="KiwiSDR URL", type=str, required=True)
     parser.add_argument("--fstart", help="start frequency in Hz", type=float, default=0.0)
